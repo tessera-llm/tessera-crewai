@@ -1,4 +1,4 @@
-﻿name: Publish Python (tessera-crewai) to PyPI
+name: Publish Python (tessera-crewai) to PyPI
 
 on:
   push:

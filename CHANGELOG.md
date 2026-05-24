@@ -1,4 +1,4 @@
-﻿# Changelog — tessera-crewai
+# Changelog — tessera-crewai
 
 All notable changes to this package are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Wire format

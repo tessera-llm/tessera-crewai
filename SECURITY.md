@@ -1,4 +1,4 @@
-﻿# Security Policy
+# Security Policy
 
 If you find a vulnerability in `tessera-crewai` or in the way it interacts with the Tessera proxy, please report it privately.
 
