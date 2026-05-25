@@ -6,7 +6,7 @@ can still run on lean dev environments.
 The "E2E" here is a smoke test — we construct an LLM instance via the
 factory and verify the resulting object carries the expected base_url
 + Tessera header, without actually calling out to a live proxy. Real
-network E2E lives in the integration suite at consolidate-cycle time.
+network E2E lives in the integration suite at the next release cycle.
 """
 
 from __future__ import annotations

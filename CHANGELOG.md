@@ -21,6 +21,6 @@ major bumps.
   `pytest.importorskip` so they degrade gracefully on lean envs.
 - py.typed marker — full type hints exposed to downstream type checkers.
 
-Publication to PyPI deferred until the next consolidate-cycle. Package
+Publication to PyPI deferred until the next release cycle. Package
 lives in the Tessera monorepo under `packages/tessera-crewai/` for the
 scaffold cycle.
