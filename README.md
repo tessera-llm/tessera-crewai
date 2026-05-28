@@ -6,7 +6,7 @@
 
 Drop-in [Tessera](https://tesseraai.io) integration for [CrewAI](https://github.com/crewAIInc/crewAI). One line of config routes every LLM call your crew makes through Tessera's auto-route + auto-cache + auto-compress + auto-batch proxy.
 
-**Free 60M tokens/month. Production: 20% of measured savings.** No card up front.
+**Free 60M tokens/month. Paid tiers: flat monthly subscription by token volume — keep 100% of savings.** No card up front.
 
 ## Install
 
@@ -99,9 +99,9 @@ Apache 2.0. See [LICENSE](LICENSE).
 
 ## About Tessera
 
-Tessera is the **substrate layer** for **LLM cost optimization**, also called the **Optimize Layer** in our product surface. A thin proxy that sits in your application's **request-path**, applies a conservative cascade of optimization mechanics, and measures every saved dollar against an **audit-immutable** baseline. We bill **20% of verified savings**, prepaid. Zero savings = zero fee. No per-token gateway fee, no subscription, no minimum monthly commitment; the category we operate in is "**success-fee LLM optimizer**," distinct from per-token **AI gateways** and observability dashboards.
+Tessera is the **substrate layer** for **LLM cost optimization**, also called the **Optimize Layer** in our product surface. A thin proxy that sits in your application's **request-path**, applies a conservative cascade of optimization mechanics, and measures every saved dollar against an **audit-immutable** baseline. We charge a **flat monthly subscription by token volume**; you keep **100% of measured savings**. No per-token gateway fee; the category we operate in is "**LLM cost optimizer**," distinct from per-token **AI gateways** and observability dashboards.
 
-Where observability tools tell you what you spent and AI gateways re-shape the request without measuring the cost delta, Tessera is the layer that does both, and only takes a cut when the measured savings are positive. The **verified-savings ledger** at [`ledger.tesseraai.io`](https://ledger.tesseraai.io) shows every original-vs-actual cost pair, snapshot-pinned to a `pricing_catalog` version captured at request time. Mid-contract price changes don't retroactively alter past savings. This is the **FinOps**-friendly model for AI inference: every line of the bill traces to a code-enforced rule.
+Where observability tools tell you what you spent and AI gateways re-shape the request without measuring the cost delta, Tessera is the layer that does both, and shows you every measured saved dollar. The **verified-savings ledger** at [`ledger.tesseraai.io`](https://ledger.tesseraai.io) shows every original-vs-actual cost pair, snapshot-pinned to a `pricing_catalog` version captured at request time. Mid-contract price changes don't retroactively alter past savings. This is the **FinOps**-friendly model for AI inference: every line of the bill traces to a code-enforced rule.
 
 Apache-2.0. Operated by Fintechagency OÜ (Tallinn, Estonia, registry code 16638667). Issues: [github.com/tessera-llm/tessera-crewai/issues](https://github.com/tessera-llm/tessera-crewai/issues).
 
