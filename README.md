@@ -73,7 +73,7 @@ llm = LLM(
 - **Auto-compress**: per-role heuristic compression on system prompts and verbose tool descriptions (system + user toggles independent). Preserves code fences and JSON shapes. 5–15% on prompt tokens.
 - **Auto-batch**: async crews with batch-tolerant SLAs get arbitraged onto provider batch APIs for ~50% cost reduction.
 
-All gated by per-workload quality canaries; toggle any mechanic on/off from the [Tessera dashboard](https://ledger.tesseraai.io). Free Sandbox tier gives you observe-only mechanics; Production tier unlocks the full stack.
+All gated by per-workload quality canaries; toggle any mechanic on/off from the [Tessera dashboard](https://ledger.tesseraai.io). Free Sandbox tier and every paid tier ship the same full mechanic stack — the only differentiator is the 60M token cap on Free.
 
 ## Supported providers (v0.1)
 
