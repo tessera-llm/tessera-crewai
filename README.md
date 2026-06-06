@@ -8,6 +8,12 @@ Drop-in [Tessera](https://tesseraai.io) integration for [CrewAI](https://github.
 
 **Free 60M tokens/month. Paid tiers: flat monthly subscription by token volume — keep 100% of savings.** No card up front.
 
+## See it in action
+
+[![Tessera launch demo — 41-second walkthrough](https://tesseraai.io/launch-reel-poster.jpg)](https://tesseraai.io/launch-reel.mp4)
+
+▶ 41-second walkthrough: live counter ticks · baseline $74,800 → actual $30,000 ($44,800 saved, 60% reduction) · audit-immutable savings ledger. Click to play.
+
 ## Install
 
 ```bash
